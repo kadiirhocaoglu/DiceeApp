@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <device id="retina4_0" orientation="landscape" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
@@ -14,25 +14,27 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppBreweryBackground" translatesAutoresizingMaskIntoConstraints="NO" id="hDV-2r-SpX">
-                                <rect key="frame" x="-30" y="0.0" width="474" height="896"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="L73-FM-GDd">
+                                <rect key="frame" x="186" y="96" width="196" height="128"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="DiceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="L73-FM-GDd">
-                                <rect key="frame" x="112" y="419" width="190" height="59"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppBreweryBackground" translatesAutoresizingMaskIntoConstraints="NO" id="hDV-2r-SpX">
+                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="L73-FM-GDd" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="1db-x5-iqz"/>
-                            <constraint firstItem="hDV-2r-SpX" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="QG6-2s-aIE"/>
-                            <constraint firstItem="hDV-2r-SpX" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailing" constant="30" id="Qkd-TS-52T"/>
-                            <constraint firstItem="hDV-2r-SpX" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="-30" id="goO-U5-6AD"/>
-                            <constraint firstItem="L73-FM-GDd" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="m4c-X5-94d"/>
-                            <constraint firstAttribute="bottom" secondItem="hDV-2r-SpX" secondAttribute="bottom" id="pLe-ns-Vsl"/>
+                            <constraint firstItem="hDV-2r-SpX" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="57R-Pn-eDN"/>
+                            <constraint firstAttribute="trailing" secondItem="hDV-2r-SpX" secondAttribute="trailing" id="Tbl-VZ-Khc"/>
+                            <constraint firstItem="hDV-2r-SpX" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Vpx-BI-jve"/>
+                            <constraint firstItem="L73-FM-GDd" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="eFN-Pi-p6Q"/>
+                            <constraint firstAttribute="bottom" secondItem="hDV-2r-SpX" secondAttribute="bottom" id="fTT-Fv-5Mw"/>
+                            <constraint firstItem="hDV-2r-SpX" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="oA5-LI-xHB"/>
+                            <constraint firstItem="hDV-2r-SpX" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="pND-B4-Ig7"/>
+                            <constraint firstItem="L73-FM-GDd" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="smW-10-UDt"/>
                         </constraints>
                     </view>
                 </viewController>
